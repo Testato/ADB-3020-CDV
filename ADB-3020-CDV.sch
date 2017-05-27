@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1428,6 +1428,13 @@ Source: http://www.diotec.com/pdf/s40.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="V+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="V-">
+<wire x1="-0.889" y1="1.27" x2="0" y2="-0.127" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.127" x2="0.889" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="1.27" x2="0.889" y2="1.27" width="0.254" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="96" rot="R270">&gt;VALUE</text>
+<pin name="V-" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -1447,6 +1454,19 @@ Source: http://www.diotec.com/pdf/s40.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="V+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="V-" prefix="P-">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="V-" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -15888,6 +15908,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="test"/>
 <part name="PAD4" library="solpad" deviceset="LSP13" device=""/>
 <part name="PAD3" library="solpad" deviceset="LSP13" device=""/>
+<part name="P+11" library="supply1" deviceset="V+" device=""/>
+<part name="P-1" library="supply1" deviceset="V-" device=""/>
+<part name="P-2" library="supply1" deviceset="V-" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35896,7 +35919,10 @@ YaBB.pl?action=print;num=1469279474;post=138</text>
 <instance part="GND28" gate="1" x="106.934" y="70.612"/>
 <instance part="GND29" gate="1" x="88.646" y="83.82"/>
 <instance part="IC2" gate="G$1" x="39.37" y="83.566"/>
-<instance part="IC4" gate="A" x="67.818" y="42.164"/>
+<instance part="IC4" gate="A" x="67.818" y="42.164" smashed="yes">
+<attribute name="NAME" x="70.358" y="45.339" size="1.778" layer="95"/>
+<attribute name="VALUE" x="72.898" y="39.624" size="1.778" layer="96"/>
+</instance>
 <instance part="IC4" gate="B" x="106.934" y="44.704"/>
 <instance part="Q1" gate="G$1" x="100.584" y="153.162" smashed="yes">
 <attribute name="NAME" x="95.25" y="154.432" size="1.778" layer="95"/>
@@ -35971,8 +35997,10 @@ YaBB.pl?action=print;num=1469279474;post=138</text>
 <instance part="PAD2" gate="1" x="33.528" y="36.83" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.036" y="34.671" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="P+1" gate="1" x="74.93" y="32.258"/>
-<instance part="P+2" gate="1" x="100.33" y="32.004"/>
+<instance part="P+1" gate="1" x="72.39" y="32.258"/>
+<instance part="P+2" gate="1" x="102.87" y="32.004" smashed="yes">
+<attribute name="VALUE" x="105.41" y="32.004" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="P+3" gate="1" x="101.346" y="59.944"/>
 <instance part="P+4" gate="1" x="83.566" y="99.822"/>
 <instance part="P+5" gate="1" x="49.53" y="99.314"/>
@@ -35995,6 +36023,12 @@ YaBB.pl?action=print;num=1469279474;post=138</text>
 </instance>
 <instance part="PAD3" gate="1" x="116.586" y="141.224" smashed="yes" rot="R270">
 <attribute name="NAME" x="119.38" y="139.319" size="1.778" layer="95"/>
+</instance>
+<instance part="IC4" gate="P" x="86.36" y="35.56" rot="R90"/>
+<instance part="P+11" gate="1" x="78.74" y="30.734" rot="R180"/>
+<instance part="P-1" gate="1" x="93.98" y="30.734"/>
+<instance part="P-2" gate="1" x="74.93" y="75.946" smashed="yes">
+<attribute name="VALUE" x="75.438" y="73.914" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -36259,19 +36293,6 @@ YaBB.pl?action=print;num=1469279474;post=138</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="57.658" y1="81.026" x2="57.658" y2="83.566" width="0.1524" layer="91"/>
 <junction x="57.658" y="81.026"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="62.738" y1="83.566" x2="65.532" y2="83.566" width="0.1524" layer="91"/>
-<wire x1="65.532" y1="83.566" x2="70.612" y2="83.566" width="0.1524" layer="91"/>
-<wire x1="65.532" y1="83.058" x2="65.532" y2="83.566" width="0.1524" layer="91"/>
-<junction x="65.532" y="83.566"/>
-<wire x1="70.612" y1="83.566" x2="74.93" y2="83.566" width="0.1524" layer="91"/>
-<junction x="70.612" y="83.566"/>
-<wire x1="74.93" y1="83.566" x2="74.93" y2="78.486" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -36833,17 +36854,16 @@ YaBB.pl?action=print;num=1469279474;post=138</text>
 <net name="N$40" class="0">
 <segment>
 <wire x1="70.358" y1="26.416" x2="70.612" y2="26.416" width="0.1524" layer="91"/>
-<wire x1="70.612" y1="26.416" x2="74.93" y2="26.416" width="0.1524" layer="91"/>
-<wire x1="74.93" y1="26.416" x2="74.93" y2="29.464" width="0.1524" layer="91"/>
+<wire x1="70.612" y1="26.416" x2="72.39" y2="26.416" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="26.416" x2="72.39" y2="29.464" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
-<junction x="70.612" y="26.416"/>
 </segment>
 </net>
 <net name="V+" class="0">
 <segment>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="104.902" y1="23.876" x2="100.33" y2="23.876" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="23.876" x2="100.33" y2="29.464" width="0.1524" layer="91"/>
+<wire x1="104.902" y1="23.876" x2="102.87" y2="23.876" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="23.876" x2="102.87" y2="29.464" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="V+"/>
 </segment>
 <segment>
@@ -36907,6 +36927,11 @@ YaBB.pl?action=print;num=1469279474;post=138</text>
 <wire x1="148.336" y1="23.876" x2="161.29" y2="23.876" width="0.1524" layer="91"/>
 <wire x1="161.29" y1="23.876" x2="161.29" y2="28.194" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="V+"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="P" pin="V+"/>
+<pinref part="P+11" gate="1" pin="V+"/>
+<wire x1="78.74" y1="35.56" x2="78.74" y2="33.274" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -37005,6 +37030,26 @@ YaBB.pl?action=print;num=1469279474;post=138</text>
 <junction x="77.216" y="153.162"/>
 <wire x1="214.376" y1="134.62" x2="77.216" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="77.216" y1="134.62" x2="77.216" y2="145.288" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="IC4" gate="P" pin="V-"/>
+<wire x1="93.98" y1="35.56" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="V-" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="62.738" y1="83.566" x2="65.532" y2="83.566" width="0.1524" layer="91"/>
+<wire x1="65.532" y1="83.566" x2="70.612" y2="83.566" width="0.1524" layer="91"/>
+<wire x1="65.532" y1="83.058" x2="65.532" y2="83.566" width="0.1524" layer="91"/>
+<junction x="65.532" y="83.566"/>
+<wire x1="70.612" y1="83.566" x2="74.93" y2="83.566" width="0.1524" layer="91"/>
+<junction x="70.612" y="83.566"/>
+<wire x1="74.93" y1="83.566" x2="74.93" y2="78.486" width="0.1524" layer="91"/>
+<pinref part="P-2" gate="1" pin="V-"/>
 </segment>
 </net>
 </nets>
