@@ -6,4 +6,4 @@ The CDV (Community Digital Version) fork is intended to start with version 2.1 (
 The project starts with the creation of Eagle .sch and .brd files because the original authors have decided not to release those files.
 
 The CDV version is released under the same license as the original project:
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+- https://creativecommons.org/licenses/by-nc-sa/4.0/
