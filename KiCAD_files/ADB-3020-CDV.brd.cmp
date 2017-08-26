@@ -1,0 +1,794 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = Mon 09 Feb 2015 04:12:04 PM PST
+
+BeginCmp
+TimeStamp = /59A06389;
+Reference = B1;
+ValeurCmp = RECTIFIER-RB1A;
+IdModule  = RECTIFIER_RB1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06451;
+Reference = C1;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06519;
+Reference = C2;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A065E1;
+Reference = C3;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A066A9;
+Reference = C4;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06771;
+Reference = C5;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06839;
+Reference = C6;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06901;
+Reference = C7;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A069C9;
+Reference = C8;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06A91;
+Reference = C9;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06B59;
+Reference = C11;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06C21;
+Reference = C12;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06CE9;
+Reference = C15;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06DB1;
+Reference = C16;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06E79;
+Reference = C17;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A06F41;
+Reference = C18;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07009;
+Reference = C19;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A070D1;
+Reference = C20;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07199;
+Reference = C21;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07261;
+Reference = C22;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07329;
+Reference = C23;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A073F1;
+Reference = C25;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A074B9;
+Reference = C26;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07581;
+Reference = C27;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07649;
+Reference = C28;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07711;
+Reference = C31;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A077D9;
+Reference = C32;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A078A1;
+Reference = C35;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07969;
+Reference = C36;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07A31;
+Reference = C37;
+ValeurCmp = CPOL-EUE2-5;
+IdModule  = RCL_E2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07AF9;
+Reference = C38;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07BC1;
+Reference = C39;
+ValeurCmp = C2.5/2;
+IdModule  = CAPACITOR-WIMA_C2.5-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07C89;
+Reference = D1;
+ValeurCmp = DIODEDO-1N4148;
+IdModule  = ADAFRUIT_DO-1N4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07D51;
+Reference = D2;
+ValeurCmp = DIODEDO-1N4148;
+IdModule  = ADAFRUIT_DO-1N4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07E19;
+Reference = D3;
+ValeurCmp = DIODEDO-1N4148;
+IdModule  = ADAFRUIT_DO-1N4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07EE1;
+Reference = D4;
+ValeurCmp = DIODEDO-1N4148;
+IdModule  = ADAFRUIT_DO-1N4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A07FA9;
+Reference = D5;
+ValeurCmp = DIODEDO-1N4148;
+IdModule  = ADAFRUIT_DO-1N4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A08071;
+Reference = D6;
+ValeurCmp = DIODEDO-1N4148;
+IdModule  = ADAFRUIT_DO-1N4148;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A08139;
+Reference = F1;
+ValeurCmp = PTC660;
+IdModule  = PTC-NTC_P660;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A08201;
+Reference = FAN41;
+ValeurCmp = MA02;
+IdModule  = CON-AMP-QUICK_02PA;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A082C9;
+Reference = FAULT41;
+ValeurCmp = LED3MM;
+IdModule  = ADAFRUIT_LED3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09011;
+Reference = HEAT41;
+ValeurCmp = LED3MM;
+IdModule  = ADAFRUIT_LED3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A090D9;
+Reference = IC1;
+ValeurCmp = 7812T;
+IdModule  = ADAFRUIT_TO220H;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A091A1;
+Reference = IC2;
+ValeurCmp = NE5532N;
+IdModule  = LINEAR_DIL08;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09331;
+Reference = IC3;
+ValeurCmp = LM2596TH;
+IdModule  = LINEAR_TO220-52;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A093F9;
+Reference = IC4;
+ValeurCmp = NE555;
+IdModule  = ST-MICROELECTRONICS_DIL-08;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A094C1;
+Reference = IC5;
+ValeurCmp = IR2184D;
+IdModule  = IRS_DIL08;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09589;
+Reference = J1;
+ValeurCmp = PIN2F061.040;
+IdModule  = CON-FASTON_F061.040;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09651;
+Reference = J2;
+ValeurCmp = PIN2F061.040;
+IdModule  = CON-FASTON_F061.040;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09719;
+Reference = J3;
+ValeurCmp = PIN2F061.040;
+IdModule  = CON-FASTON_F061.040;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A097E1;
+Reference = J4;
+ValeurCmp = PIN2F061.040;
+IdModule  = CON-FASTON_F061.040;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A098A9;
+Reference = J5;
+ValeurCmp = PIN2F061.040;
+IdModule  = CON-FASTON_F061.040;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09971;
+Reference = J6;
+ValeurCmp = PIN2F061.040;
+IdModule  = CON-FASTON_F061.040;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09A39;
+Reference = J7;
+ValeurCmp = PIN2F061.040;
+IdModule  = CON-FASTON_F061.040;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09B01;
+Reference = J8;
+ValeurCmp = PIN2F061.040;
+IdModule  = CON-FASTON_F061.040;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09BC9;
+Reference = JP1;
+ValeurCmp = JP1E;
+IdModule  = JUMPER_JP1;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09C91;
+Reference = L3;
+ValeurCmp = L;
+IdModule  = ADAFRUIT_6000;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09D59;
+Reference = L4;
+ValeurCmp = L;
+IdModule  = ADAFRUIT_6000;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09E21;
+Reference = LIMITER41;
+ValeurCmp = LED3MM;
+IdModule  = ADAFRUIT_LED3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09EE9;
+Reference = LOGIC_POWER41;
+ValeurCmp = MA02;
+IdModule  = CON-AMP-QUICK_02PA;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A09FB1;
+Reference = ON41;
+ValeurCmp = LED3MM;
+IdModule  = ADAFRUIT_LED3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0A58D;
+Reference = PAD1;
+ValeurCmp = LSP13;
+IdModule  = SOLPAD_LSP13;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0A655;
+Reference = PAD2;
+ValeurCmp = LSP13;
+IdModule  = SOLPAD_LSP13;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0A71D;
+Reference = PAD3;
+ValeurCmp = LSP13;
+IdModule  = SOLPAD_LSP13;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0A7E5;
+Reference = PAD4;
+ValeurCmp = LSP13;
+IdModule  = SOLPAD_LSP13;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0A8AD;
+Reference = Q1;
+ValeurCmp = IRFP240-H;
+IdModule  = TRANSISTOR-POWER_TO247BH;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0A975;
+Reference = Q2;
+ValeurCmp = IRFP240-H;
+IdModule  = TRANSISTOR-POWER_TO247BH;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0AA3D;
+Reference = Q4;
+ValeurCmp = BDX53;
+IdModule  = TRANSISTOR_TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0AB05;
+Reference = R1;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0ABCD;
+Reference = R2;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0AC95;
+Reference = R3;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0AD5D;
+Reference = R4;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0AE25;
+Reference = R5;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0AEED;
+Reference = R6;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0AFB5;
+Reference = R7;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B07D;
+Reference = R8;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B145;
+Reference = R9;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B20D;
+Reference = R10;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B2D5;
+Reference = R11;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B39D;
+Reference = R12;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B465;
+Reference = R13;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B52D;
+Reference = R14;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B5F5;
+Reference = R15;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B6BD;
+Reference = R16;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B785;
+Reference = R17;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B84D;
+Reference = R18;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B915;
+Reference = R19;
+ValeurCmp = TRIMPOT3386;
+IdModule  = ADAFRUIT_TRIM-3386;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0B9DD;
+Reference = R20;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0BAA5;
+Reference = R21;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0BB6D;
+Reference = R22;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0BC35;
+Reference = R23;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0BCFD;
+Reference = R24;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0BDC5;
+Reference = R25;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0BE8D;
+Reference = R26;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0BF55;
+Reference = R27;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C01D;
+Reference = R28;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C0E5;
+Reference = R29;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C1AD;
+Reference = R30;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C275;
+Reference = R31;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C33D;
+Reference = R32;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C405;
+Reference = R33;
+ValeurCmp = NTC640;
+IdModule  = PTC-NTC_P640;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C4CD;
+Reference = R34;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C595;
+Reference = R35;
+ValeurCmp = TRIMPOT3386;
+IdModule  = ADAFRUIT_TRIM-3386;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C65D;
+Reference = R36;
+ValeurCmp = TRIM_1234-S64YW;
+IdModule  = POT_S64YW;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C725;
+Reference = R37;
+ValeurCmp = TRIM_1234-S64YW;
+IdModule  = POT_S64YW;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C7ED;
+Reference = R38;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C8B5;
+Reference = R39;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0C97D;
+Reference = R40;
+ValeurCmp = R-US_0204/5;
+IdModule  = ADAFRUIT_0204_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0CA45;
+Reference = RESET41;
+ValeurCmp = MA02;
+IdModule  = CON-AMP-QUICK_02PA;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0CB0D;
+Reference = S1;
+ValeurCmp = 40-XX;
+IdModule  = ADAFRUIT_B3F-40XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0CC9D;
+Reference = T1;
+ValeurCmp = BC337;
+IdModule  = TRANSISTOR_TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0CD65;
+Reference = T2;
+ValeurCmp = BC337;
+IdModule  = TRANSISTOR_TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /59A0CE2D;
+Reference = V-A_METER_SUPPLY41;
+ValeurCmp = MA02;
+IdModule  = CON-AMP-QUICK_02PA;
+EndCmp
+
+EndListe
