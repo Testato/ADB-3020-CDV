@@ -1,4 +1,4 @@
-update=26-Aug-17 11:36:50
+update=27/08/2017 16:01:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,3 +31,6 @@ LibDir=
 [eeschema/libraries]
 LibName1=ADB-3020-CDV.brd
 LibName2=power
+LibName3=device
+LibName4=conn
+LibName5=switches

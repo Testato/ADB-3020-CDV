@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "ADB-3020-CDV.brd")(type Legacy)(uri "C:/Users/win10/Desktop/kicad/modified_eagle_files/kicad/ADB-3020-CDV.brd.mod")(options "")(descr ""))
+  (lib (name customparts)(type KiCad)(uri "$(KIPRJMOD)/customparts.pretty")(options "")(descr ""))
 )
