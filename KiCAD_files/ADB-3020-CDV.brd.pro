@@ -1,4 +1,4 @@
-update=27/08/2017 16:01:39
+update=29/08/2017 17:24:05
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -34,3 +32,5 @@ LibName2=power
 LibName3=device
 LibName4=conn
 LibName5=switches
+[general]
+version=1
