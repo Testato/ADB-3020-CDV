@@ -1,4 +1,4 @@
-update=29/08/2017 18:18:43
+update=30-Aug-17 16:04:31
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,14 +23,15 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../KiCAD_files
 [eeschema/libraries]
-LibName1=ADB-3020-CDV
-LibName2=power
-LibName3=device
-LibName4=conn
-LibName5=switches
-[general]
-version=1
+LibName1=ADB-3020-CDV-rescue
+LibName2=ADB-3020-CDV
+LibName3=power
+LibName4=device
+LibName5=conn
+LibName6=switches
